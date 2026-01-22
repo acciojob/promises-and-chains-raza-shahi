@@ -7,7 +7,7 @@ myForm.addEventListener('submit',(e)=>{
 	const age = document.getElementById("age").value.trim();
 const name = document.getElementById("name").value.trim();
 	if (age === "" || name === "") {
-		alert("Please enter valid details.");
+		alert("Please enter valid details");
 		e.preventDefault();
 	}else{
 		setTimeout(()=>{
